@@ -1,0 +1,20 @@
+# Ambiente virtual e repositório BitNet externo
+BitNet/
+venv/
+.venv/
+ENV/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Modelos pesados locais
+*.gguf
+*.bin
+*.safetensors
+
+# Arquivos temporários e de sistema
+.DS_Store
+Thumbs.db
+*.log
